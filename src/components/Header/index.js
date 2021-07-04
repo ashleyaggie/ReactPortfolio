@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.css";
 
-function Hero(props) {
+function Header() {
   return (
-    <div className="hero text-center" style={{ backgroundImage: `url(${props.backgroundImage})` }}>
-      {props.children}
+    <div className="text-center">
+      Built with React!
     </div>
   );
 }
 
-export default Hero;
+export default Header;

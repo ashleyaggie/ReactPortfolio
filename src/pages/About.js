@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../components/Header";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
@@ -7,52 +6,20 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Header backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
-      </Header>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>Welcome To Pupster!</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-              consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
-              parturient montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus
-              sollicitudin at et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
-              gravida. Duis eget vestibulum quam, ut porttitor sem. Donec sagittis mi sollicitudin
-              turpis semper, et interdum risus lobortis. Vestibulum suscipit nunc non egestas
-              tristique. Proin hendrerit efficitur malesuada. Mauris lorem urna, sodales accumsan
-              quam non, tristique tempor erat. Nullam non sem facilisis, tempus tortor sit amet,
-              volutpat nisl. Ut et turpis non nunc maximus mollis a vitae tortor. Pellentesque
-              mattis risus ac quam laoreet cursus. Praesent suscipit orci neque, vestibulum
-              tincidunt augue tincidunt non. Duis consequat mattis tortor vitae mattis.
+            Full stack developer with a Bachelor of Arts in English and creative arts from Texas A&M. Certificate in Full Stack Development from SMU with skills in HTML5, CSS, and JavaScript. Creative problem-solver that is always interested in learning more to develop user-friendly designs.
             </p>
             <p>
-              Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed
-              malesuada molestie velit ac viverra. Quisque a ullamcorper purus. Curabitur luctus mi
-              ac mi hendrerit semper. Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
-              nibh porta accumsan. Nunc volutpat tempus porttitor. Nunc congue dictum egestas.
-              Aliquam blandit mi eu urna scelerisque, vitae volutpat ligula ultricies. Maecenas vel
-              porta augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
+              Strengths include creativity, executing client vision, and detail-oriented solutions. I have earned employee of the year at a previous position, my grade average in the course is an A+, and I developed a web application for an assignment that can save user input in local storage and populate on page load.
             </p>
             <p>
-              Etiam ut massa efficitur, gravida sapien non, condimentum sapien. Suspendisse massa
-              tortor, facilisis in neque sit amet, scelerisque elementum tortor. Nullam eget nibh
-              sit amet odio lobortis ullamcorper. Nulla bibendum magna nec sem pulvinar lobortis.
-              Mauris et imperdiet urna, vitae lobortis dui. Nunc elementum elit mi, non mattis enim
-              congue at. Proin mi lectus, ullamcorper id hendrerit eu, ultricies vitae lacus. Nunc
-              vehicula, erat eget laoreet condimentum, felis ante malesuada leo, nec efficitur diam
-              nisi eget nisi. Cras arcu lacus, tristique in bibendum vitae, elementum eget lorem.
-              Maecenas vestibulum volutpat orci eu pharetra. Praesent vel blandit ante, nec faucibus
-              libero. Sed ultrices lorem ex, eu facilisis libero convallis ac. Vivamus id dapibus
-              eros. Nullam tempor sem rhoncus porta semper. Proin bibendum vulputate nisl, fringilla
-              interdum elit pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet
-              massa.
+              Dedicated and detail-oriented with a history of coordinating with other departments within companies I have worked for in the past. Very meticulous and interested in fulfilling the design in the cleanest and clearest ways possible.
+            </p>
+            <p>
+              I want to help clients with designing websites that fulfill the need to impress while also being easy to use and understandable. After all, a website isn't going to do much good if the user can't figure out how it works!
             </p>
           </Col>
         </Row>

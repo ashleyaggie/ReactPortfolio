@@ -1,24 +1,11 @@
 import React from "react";
-import CardBtn from "../CardBtn";
 import "./style.css";
 
-function Card(props) {
+function Card({ direction, children }) {
   return (
     <div
-      className="card"
-      style={{
-        backgroundImage: props.image ? `url(${props.image})` : "none"
-      }}
-    >
-      {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
-      <CardBtn
-        onClick={props.handleBtnClick}
-        data-value="pass"
-      />
-      <CardBtn
-        onClick={props.handleBtnClick}
-        data-value="pick"
-      />
+      className={direction ? direction : "card left"} style={{width: "45rem"}}
+    > {children}
     </div>
   );
 }

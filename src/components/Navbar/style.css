@@ -1,3 +1,17 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
 }
+
+.navbar {
+  background-color: #5591a9;
+}
+
+.brand-logo {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.emphasis {
+  color: blue;
+}

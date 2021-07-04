@@ -4,10 +4,10 @@ import "./style.css";
 function CardBtn(props) {
   return (
     <button 
+      type="button"
       onClick={props.onClick} 
-      className={`card-btn ${props["data-value"]}`} 
-      data-value={props["data-value"]} 
-    />
+      className={props.direction ? props.direction : "btn left"} 
+    >{props.dataType}</button>
   );
 }
 
