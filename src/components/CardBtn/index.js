@@ -3,11 +3,7 @@ import "./style.css";
 
 function CardBtn(props) {
   return (
-    <button 
-      type="button"
-      onClick={props.onClick} 
-      className={props.direction ? props.direction : "btn left"} 
-    >{props.dataType}</button>
+    <a class={props.direction ? props.direction : "btn left"} href={props.link} target="_blank" rel="noreferrer">{props.dataType}</a>
   );
 }
 

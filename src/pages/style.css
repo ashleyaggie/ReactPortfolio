@@ -1,0 +1,15 @@
+article {
+    color: black;
+    position: relative;
+}
+
+.homeText {
+    font-family: 'Raleway', sans-serif;
+    padding: 10% 5% 10% 10%;
+}
+
+#home img {
+    width: 50%;
+    min-width: 50%;
+    margin: 6vw 10% 6vw 6vw;
+}

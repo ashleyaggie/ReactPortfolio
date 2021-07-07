@@ -4,13 +4,22 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <Link className="brand-logo" to="/">
-          Ashley<span className="emphasis">Wright</span>
+          Ashley<span className="emphasis">Wright</span> |
         </Link>
         <div>
           <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link
+                to="/home"
+                className={
+                  window.location.pathname === "/home" ? "nav-link active" : "nav-link"}
+                >
+                Home
+              </Link>
+            </li>
             <li className="nav-item">
               <Link
                 to="/aboutme"

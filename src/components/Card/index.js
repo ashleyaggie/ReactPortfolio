@@ -5,7 +5,10 @@ function Card({ direction, children }) {
   return (
     <div
       className={direction ? direction : "card left"} style={{width: "45rem"}}
-    > {children}
+    >
+      <div className="card-body">
+        {children}
+      </div>
     </div>
   );
 }

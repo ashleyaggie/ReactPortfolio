@@ -1,17 +1,23 @@
-nav.navbar.navbar-default {
-  margin-bottom: 0;
+.emphasis {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  color: #5591a9;
 }
 
 .navbar {
-  background-color: #5591a9;
+  background-color: #062c43;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: #5591a9;
 }
 
 .brand-logo {
-  color: black;
+  color: white;
   font-size: 30px;
   text-decoration: none;
-}
-
-.emphasis {
-  color: blue;
 }
