@@ -8,7 +8,7 @@ function Home() {
     <article id="home">
         <Row>
             <Col>
-                <span className="homeText">
+                <span className="home-text">
                     <h1>I'm Ashley!</h1>
                     <h3>My name is Ashley Wright, a full stack web developer currently working through the SMU Coding Bootcamp.
                     <br/><br/>

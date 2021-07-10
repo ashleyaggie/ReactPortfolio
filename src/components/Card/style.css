@@ -2,12 +2,16 @@
   background-size: cover;
   background-position: center;
   background-clip: content-box;
-  border: 6px solid white;
-  height: 400px;
   width: 400px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   position: relative;
   margin-bottom: 40px;
+  padding: 50px;
+  background-color: #062c43 !important;
+}
+
+.card-body li a {
+  color: #039be5 !important;
 }
 
 .card-img {
@@ -20,4 +24,8 @@
   position: absolute;
   left: 25%;
   top: 25%;
+}
+
+.card-body {
+  color: #82C0D3;
 }

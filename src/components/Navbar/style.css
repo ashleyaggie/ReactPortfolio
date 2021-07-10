@@ -16,6 +16,10 @@
   color: #5591a9;
 }
 
+.navbar a:focus {
+  color: white;
+}
+
 .brand-logo {
   color: white;
   font-size: 30px;

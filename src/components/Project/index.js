@@ -4,14 +4,6 @@ import Row from "../Row";
 import Card from "../Card";
 import CardBtn from "../CardBtn";
 
-// function onClickWeb(props) {
-//     window.location=props.website
-// };
-
-// function onClickRepo(props) {
-//     window.location=props.repo
-// };
-
 function Project(props) {
     return <>
     <div>
