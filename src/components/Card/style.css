@@ -5,9 +5,19 @@
   width: 400px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   position: relative;
-  margin-bottom: 40px;
-  padding: 50px;
+  margin: 0 0.5% 40px 0.5%;
+  padding: 30px;
   background-color: #062c43 !important;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+.desc-bg {
+  background-color: #3d748a;
+  color: white;
+  padding: 10px;
 }
 
 .card-body li a {

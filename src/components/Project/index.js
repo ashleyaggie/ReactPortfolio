@@ -13,9 +13,9 @@ function Project(props) {
             </Card>
             <Card direction="card right">
                 <span className="card-title">{props.title}</span>
-                <p className="light-blue darken-4">{props.desc}</p>
-                <CardBtn {...props} dataType="Website" link={props.website} />
-                <CardBtn {...props} dataType="Repo" direction="btn right" link={props.repo} />
+                <p className="desc-bg">{props.desc}</p>
+                <CardBtn {...props} dataType="WEBSITE" link={props.website} />
+                <CardBtn {...props} dataType="REPO" direction="btn right" link={props.repo} />
             </Card>
         </Row>
     </div>

@@ -13,3 +13,23 @@
     font-weight: 400;
     padding: 0 5% 0 10%;
 }
+
+@media screen and (max-width: 768px) {
+    .row h1 {
+        font-size: 50px;
+    }
+
+    .row h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .row h1 {
+        font-size: 30px;
+    }
+
+    .row h3 {
+        font-size: 20px;
+    }
+}

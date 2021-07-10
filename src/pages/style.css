@@ -11,7 +11,20 @@ body {
 }
 
 #home img {
-    width: 50%;
+    width: 75%;
     min-width: 50%;
     margin: 6vw 10% 6vw 6vw;
+}
+
+@media screen and (max-width: 768px) {
+    #home img {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #home img {
+        margin-top: 40%;
+        width: 85vw;
+    }
 }
