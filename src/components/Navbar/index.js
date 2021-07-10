@@ -2,15 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-const onClick = (props) => {
-  // let collapsed = props.target.parentElement.parentElement.ariaExpanded;
-  console.log(props.target.parentElement[2]);
-
-  // if(collapsed) {
-  //   onClick();
-  // }
-};
-
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
@@ -22,7 +13,7 @@ function Navbar() {
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i className="fas fa-bars fa-1x"></i></span></button>
 
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent1">
-          <ul className="navbar-nav mr-auto" onClick={onClick}>
+          <ul className="navbar-nav mr-auto">
             <li className="nav-item">
               <Link
                 to="/home"
