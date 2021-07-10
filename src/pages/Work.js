@@ -39,7 +39,7 @@ const projects = [
     image: "https://raw.githubusercontent.com/ashleyaggie/TechBlog/main/public/images/homepage.png",
     title: "Tech Blog",
     desc: "A website developed from scratch using Model-View-Controller format and MySql database to allow users to create, edit, delete, and view posts. Users can also comment on the posts.",
-    website: "morning-tech-blog.herokuapp.com/",
+    website: "https://morning-tech-blog.herokuapp.com/",
     repo: "https://github.com/ashleyaggie/TechBlog"
   },
   {
@@ -47,7 +47,7 @@ const projects = [
     image: "https://raw.githubusercontent.com/ashleyaggie/BudgetTracker/main/public/homepage.png",
     title: "Budget Tracker",
     desc: "This is an application where users can track their deposits and expenses and keep track of their total even while offline.",
-    website: "intense-budget-tracker.herokuapp.com/",
+    website: "https://intense-budget-tracker.herokuapp.com/",
     repo: "https://github.com/ashleyaggie/BudgetTracker"
   }
 ];
