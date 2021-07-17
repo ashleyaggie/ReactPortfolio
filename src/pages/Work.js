@@ -44,11 +44,11 @@ const projects = [
   },
   {
     id: "6f",
-    image: "https://raw.githubusercontent.com/ashleyaggie/BudgetTracker/main/public/homepage.png",
-    title: "Budget Tracker",
-    desc: "This is an application where users can track their deposits and expenses and keep track of their total even while offline.",
-    website: "https://intense-budget-tracker.herokuapp.com/",
-    repo: "https://github.com/ashleyaggie/BudgetTracker"
+    image: "https://raw.githubusercontent.com/ashleyaggie/GoogleBooksSearch/main/client/public/images/savedPage.png",
+    title: "Google Books Search",
+    desc: "An application that allows users to search Google books for books and save them to a list.",
+    website: "https://quiet-books-search.herokuapp.com/",
+    repo: "https://github.com/ashleyaggie/GoogleBooksSearch"
   }
 ];
 
