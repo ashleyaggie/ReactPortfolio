@@ -20,11 +20,11 @@ const projects = [
   },
   {
     id: "3c",
-    image: "https://ashleyaggie.github.io/Portfolio/assets/images/weatherDashboard.png",
-    title: "Weather Dashboard",
-    desc: "User can search a city and it will display the current weather as well as a forecast of the weather for the next 5 days.",
-    website: "https://ashleyaggie.github.io/WeatherDashboard/",
-    repo: "https://github.com/ashleyaggie/WeatherDashboard"
+    image: "https://raw.githubusercontent.com/ashleyaggie/GoogleBooksSearch/main/client/public/images/savedPage.png",
+    title: "Google Books Search",
+    desc: "An application that allows users to search Google books for books and save them to a list.",
+    website: "https://quiet-books-search.herokuapp.com/",
+    repo: "https://github.com/ashleyaggie/GoogleBooksSearch"
   },
   {
     id: "4d",
@@ -44,11 +44,11 @@ const projects = [
   },
   {
     id: "6f",
-    image: "https://raw.githubusercontent.com/ashleyaggie/GoogleBooksSearch/main/client/public/images/savedPage.png",
-    title: "Google Books Search",
-    desc: "An application that allows users to search Google books for books and save them to a list.",
-    website: "https://quiet-books-search.herokuapp.com/",
-    repo: "https://github.com/ashleyaggie/GoogleBooksSearch"
+    image: "https://raw.githubusercontent.com/ashleyaggie/BudgetTracker/main/public/homepage.png",
+    title: "Budget Tracker",
+    desc: "This is an application where users can track their deposits and expenses and keep track of their total even while offline.",
+    website: "https://intense-budget-tracker.herokuapp.com/",
+    repo: "https://github.com/ashleyaggie/BudgetTracker"
   }
 ];
 
