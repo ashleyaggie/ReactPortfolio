@@ -8,6 +8,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
+import Skills from "./pages/Skills";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/aboutme" component={About} />
             <Route exact path="/work" component={Work} />
             <Route exact path="/contacts" component={Contacts} />
+            <Route exact path="/skills" component={Skills} />
           </Switch>
         </Wrapper>
         <Footer />
