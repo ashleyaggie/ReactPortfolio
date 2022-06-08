@@ -12,10 +12,10 @@ function Contacts() {
             building up your website to suit your needs. Again, please do not hesitate to reach out. Thank you!
           </p>
           <ul>
-            <li><a href="../images/AshleyWright21.pdf" target="_blank" rel="noreferrer">Resume (Downloadable PDF)</a></li>
+            <li><a href="../images/AshleyWrightResume.pdf" target="_blank" rel="noreferrer">Resume (Downloadable PDF)</a></li>
             <li><a href="https://github.com/ashleyaggie" target="_blank" rel="noreferrer">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/ashley-wright-580471105/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-            <li>Email: ashleyaggie@aol.com</li>
+            <li>Email: <a href="mailto:ashley.mic.wright@gmail.com">ashley.mic.wright@gmail.com</a></li>
             <li>Phone: 214-679-8064</li>
           </ul>
         </div>
